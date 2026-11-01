@@ -1,0 +1,27 @@
+package com.codingshuttle.prod_ready_fearures.advice;
+
+import java.time.LocalDateTime;
+
+import org.springframework.http.HttpStatus;
+
+import lombok.Data;
+
+@Data
+public class ApiError {
+	private LocalDateTime timeStamp;
+	private String error;
+	private HttpStatus statusCode;
+	
+	
+	public ApiError(String error, HttpStatus statusCode) {
+		super();
+		this.error = error;
+		this.statusCode = statusCode;
+	}
+	
+	public ApiError() {
+		this.timeStamp = LocalDateTime.now();
+	}
+	
+	
+}
