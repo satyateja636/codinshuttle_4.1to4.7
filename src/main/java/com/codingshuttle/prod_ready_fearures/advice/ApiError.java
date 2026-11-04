@@ -14,7 +14,7 @@ public class ApiError {
 	
 	
 	public ApiError(String error, HttpStatus statusCode) {
-		super();
+		this();
 		this.error = error;
 		this.statusCode = statusCode;
 	}

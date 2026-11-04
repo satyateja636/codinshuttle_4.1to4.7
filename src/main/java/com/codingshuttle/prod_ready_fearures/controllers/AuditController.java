@@ -22,7 +22,7 @@ public class AuditController {
 	@Autowired
 	private EntityManagerFactory entityManagerFactory;
 
-	@GetMapping(path = "/posts/{postID}")
+	@GetMapping(path = "/posts/{postId}")
 	public List<PostEntity> getPostRevisons(@PathVariable Long postId) {
 		AuditReader auditReader = AuditReaderFactory.get(entityManagerFactory.createEntityManager());
 
