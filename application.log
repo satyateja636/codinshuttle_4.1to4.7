@@ -240,3 +240,149 @@ Unconditional classes:
 2026-11-05T16:30:03.744+05:30  INFO 21692 --- [prod-ready-fearures] [RMI TCP Connection(66)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-11-05T16:30:03.746+05:30  INFO 21692 --- [prod-ready-fearures] [RMI TCP Connection(66)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
 2026-11-05T16:30:03.759+05:30  INFO 21692 --- [prod-ready-fearures] [RMI TCP Connection(66)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2026-11-05T16:35:24.181+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] c.c.p.ProdReadyFearuresApplication       : Starting ProdReadyFearuresApplication using Java 21.0.11 with PID 2808 (C:\Users\satya\OneDrive\Desktop\CodingShuttleCourse-Cohort 5.0\prod-ready-fearures\target\classes started by satya in C:\Users\satya\OneDrive\Desktop\CodingShuttleCourse-Cohort 5.0\prod-ready-fearures)
+2026-11-05T16:35:24.187+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] c.c.p.ProdReadyFearuresApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-11-05T16:35:24.293+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-05T16:35:24.294+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-05T16:35:26.109+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-05T16:35:26.221+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 1 JPA repository interface.
+2026-11-05T16:35:27.730+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9000 (http)
+2026-11-05T16:35:27.764+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-05T16:35:27.765+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-05T16:35:27.907+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3612 ms
+2026-11-05T16:35:28.497+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-05T16:35:28.577+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-05T16:35:28.967+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2026-11-05T16:35:29.330+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-05T16:35:29.440+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-05T16:35:30.319+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@670fcc17
+2026-11-05T16:35:30.324+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-05T16:35:30.642+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/prod-ready-features]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.27
+	Default catalog/schema: prod-ready-features/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-05T16:35:31.298+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] o.h.e.c.i.m.AuditMetadataGenerator       : Adding properties for entity: com.codingshuttle.prod_ready_fearures.entities.PostEntity
+2026-11-05T16:35:32.552+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-05T16:35:33.422+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-05T16:35:33.955+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-05T16:35:34.576+05:30  WARN 2808 --- [prod-ready-fearures] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-05T16:35:34.689+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2026-11-05T16:35:36.065+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 13 endpoints beneath base path '/actuator'
+2026-11-05T16:35:36.241+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9000 (http) with context path '/'
+2026-11-05T16:35:36.256+05:30  INFO 2808 --- [prod-ready-fearures] [restartedMain] c.c.p.ProdReadyFearuresApplication       : Started ProdReadyFearuresApplication in 13.041 seconds (process running for 15.839)
+2026-11-05T16:35:37.042+05:30  INFO 2808 --- [prod-ready-fearures] [RMI TCP Connection(4)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-05T16:35:37.043+05:30  INFO 2808 --- [prod-ready-fearures] [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-05T16:35:37.045+05:30  INFO 2808 --- [prod-ready-fearures] [RMI TCP Connection(4)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-11-05T16:36:09.632+05:30  INFO 2808 --- [prod-ready-fearures] [http-nio-9000-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1101 ms
+2026-11-05T16:38:31.540+05:30  WARN 2808 --- [prod-ready-fearures] [http-nio-9000-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.codingshuttle.prod_ready_fearures.exceptions.ResourceNotFoundException: Post not found with this id 2]
+2026-11-05T16:38:53.754+05:30  WARN 2808 --- [prod-ready-fearures] [http-nio-9000-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.codingshuttle.prod_ready_fearures.exceptions.ResourceNotFoundException: Post not found with this id 1]
+2026-11-05T16:40:12.343+05:30  WARN 2808 --- [prod-ready-fearures] [http-nio-9000-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.codingshuttle.prod_ready_fearures.exceptions.ResourceNotFoundException: Post not found with this id 1]
+2026-11-05T16:43:32.246+05:30 ERROR 2808 --- [prod-ready-fearures] [http-nio-9000-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.orm.ObjectOptimisticLockingFailureException: Row was already updated or deleted by another transaction for entity [com.codingshuttle.prod_ready_fearures.entities.PostEntity with id '2']] with root cause
+
+org.hibernate.StaleObjectStateException: Row was already updated or deleted by another transaction for entity [com.codingshuttle.prod_ready_fearures.entities.PostEntity with id '2']
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:460) ~[hibernate-core-7.4.13.Final.jar:7.4.13.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.merge(DefaultMergeEventListener.java:193) ~[hibernate-core-7.4.13.Final.jar:7.4.13.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.doMerge(DefaultMergeEventListener.java:137) ~[hibernate-core-7.4.13.Final.jar:7.4.13.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:121) ~[hibernate-core-7.4.13.Final.jar:7.4.13.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:78) ~[hibernate-core-7.4.13.Final.jar:7.4.13.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:138) ~[hibernate-core-7.4.13.Final.jar:7.4.13.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:817) ~[hibernate-core-7.4.13.Final.jar:7.4.13.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:802) ~[hibernate-core-7.4.13.Final.jar:7.4.13.Final]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-7.0.10.jar:7.0.10]
+	at jdk.proxy4/jdk.proxy4.$Proxy154.merge(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityHandlerInvocationHandler.invokeMethod(SharedEntityManagerCreator.java:239) ~[spring-orm-7.0.10.jar:7.0.10]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:393) ~[spring-orm-7.0.10.jar:7.0.10]
+	at jdk.proxy4/jdk.proxy4.$Proxy154.merge(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:667) ~[spring-data-jpa-4.1.2.jar:4.1.2]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-7.0.10.jar:7.0.10]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:278) ~[spring-data-commons-4.1.2.jar:4.1.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:169) ~[spring-data-commons-4.1.2.jar:4.1.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158) ~[spring-data-commons-4.1.2.jar:4.1.2]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:545) ~[spring-data-commons-4.1.2.jar:4.1.2]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:290) ~[spring-data-commons-4.1.2.jar:4.1.2]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:690) ~[spring-data-commons-4.1.2.jar:4.1.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar:7.0.10]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:171) ~[spring-data-commons-4.1.2.jar:4.1.2]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:146) ~[spring-data-commons-4.1.2.jar:4.1.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar:7.0.10]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:69) ~[spring-data-commons-4.1.2.jar:4.1.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar:7.0.10]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133) ~[spring-tx-7.0.10.jar:7.0.10]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371) ~[spring-tx-7.0.10.jar:7.0.10]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130) ~[spring-tx-7.0.10.jar:7.0.10]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar:7.0.10]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:135) ~[spring-tx-7.0.10.jar:7.0.10]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar:7.0.10]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:166) ~[spring-data-jpa-4.1.2.jar:4.1.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179) ~[spring-aop-7.0.10.jar:7.0.10]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:219) ~[spring-aop-7.0.10.jar:7.0.10]
+	at jdk.proxy4/jdk.proxy4.$Proxy162.save(Unknown Source) ~[na:na]
+	at com.codingshuttle.prod_ready_fearures.services.PostServiceImpl.createNewPost(PostServiceImpl.java:33) ~[classes/:na]
+	at com.codingshuttle.prod_ready_fearures.controllers.PostController.createNewPost(PostController.java:37) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-7.0.10.jar:7.0.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934) ~[spring-webmvc-7.0.10.jar:7.0.10]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853) ~[spring-webmvc-7.0.10.jar:7.0.10]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86) ~[spring-webmvc-7.0.10.jar:7.0.10]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963) ~[spring-webmvc-7.0.10.jar:7.0.10]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866) ~[spring-webmvc-7.0.10.jar:7.0.10]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000) ~[spring-webmvc-7.0.10.jar:7.0.10]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903) ~[spring-webmvc-7.0.10.jar:7.0.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649) ~[tomcat-embed-core-11.0.27.jar:6.1]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874) ~[spring-webmvc-7.0.10.jar:7.0.10]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710) ~[tomcat-embed-core-11.0.27.jar:6.1]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:132) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:59) ~[tomcat-embed-websocket-11.0.27.jar:11.0.27]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-7.0.10.jar:7.0.10]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:111) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:164) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:86) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:71) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:347) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:411) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:71) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1308) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:2202) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:74) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:947) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:481) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:74) ~[tomcat-embed-core-11.0.27.jar:11.0.27]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2026-11-05T16:45:56.813+05:30  INFO 2808 --- [prod-ready-fearures] [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-11-05T16:45:56.823+05:30  INFO 2808 --- [prod-ready-fearures] [RMI TCP Connection(21)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-05T16:45:56.862+05:30  INFO 2808 --- [prod-ready-fearures] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-05T16:45:56.884+05:30  INFO 2808 --- [prod-ready-fearures] [RMI TCP Connection(21)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-05T16:45:56.897+05:30  INFO 2808 --- [prod-ready-fearures] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-05T16:45:56.913+05:30  INFO 2808 --- [prod-ready-fearures] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
